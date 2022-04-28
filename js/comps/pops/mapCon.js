@@ -3,6 +3,9 @@ Vue.component('app-mapCon', {
     `
     <section @click.prevent="closeComp" class="absolute top-0 left-0 px-20 py-40 w-full h-full bg-black/30 z-50" id="mapCon">
         <div @click.prevent.stop class="relative rounded-lg bg-white h-full w-3/4 mx-auto overflow-y-scroll" id="mapCon">
+            <div class="p-4">
+                <button class="block text-4xl font-extrabold" @click.prevent="closeComp">&#x2715</button>
+            </div>
             <header class="rounded-b-2xl h-20 w-3/4 mx-auto bg-text flex items-center justify-center text-center overflow-y-scroll">
                 <h2 class="text-5xl font-extrabold text-white">
                     <span class="text-primary">Th</span><span class="text-quarternary">e M</span><span class="text-secondary">ee</span><span class="text-tertiary">pl</span><span class="text-quinary">es</span>

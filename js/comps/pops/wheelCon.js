@@ -4,6 +4,9 @@ Vue.component('app-wheelCon', {
     <section @click.prevent="closeComp" class="absolute top-0 left-0 px-20 py-40 w-full h-full bg-black/30 z-50" id="portraitCon">
         <div @click.prevent.stop class="relative rounded-lg bg-white h-full w-full overflow-y-scroll">
             <header class="rounded-t-lg h-10 w-full bg-primary" id="faqHeader"></header>
+            <div class="p-4">
+                <button class="block text-4xl font-extrabold" @click.prevent="closeComp">&#x2715</button>
+            </div>
             <article class="pt-12 px-40 w-full z-50">
                 <h1 class="text-6xl text-center text-primary font-extrabold leading-tight">Wheel of Goodies</h1>
                 <h2 class="mt-4 text-5xl font-extrabold text-center">The first of many MINIGAMES to be released, the Wheel of Goodies! The wheel can be spun daily, with many attractive prizes to be won by the meeple fam :D</h2>

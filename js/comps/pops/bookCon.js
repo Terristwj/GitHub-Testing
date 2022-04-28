@@ -3,6 +3,9 @@ Vue.component('app-bookCon', {
     `
     <section class="absolute top-0 left-0 px-112 pt-44 pb-60 w-full h-full bg-black/30 z-50" id="pageCon" @click.prevent="closeComp">
         <article class="w-full h-full" @click.prevent.stop>
+            <div class="p-4">
+                <button class="block text-4xl font-extrabold" @click.prevent="closeComp">&#x2715</button>
+            </div>    
             <div v-if="this.currentPage == 0" class="grid grid-cols-2 gap-20 w-full h-full">
                 <div class="flex flex-col justify-center text-center">
                     <div>
