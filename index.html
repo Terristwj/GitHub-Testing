@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Meeples</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" type="image/x-icon" href="./favicon.png">
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: { 
+                colors: {
+                    primary: '#FF555E',
+                    secondary: '#CBABFF',
+                    tertiary: '#858585',
+                    quarternary: '#83B2FF',
+                    quinary: '#FF8D56',
+                    text: '#2E2E2E',
+                    custom_green: '#21F521',
+                    custom_grey: '#D9D9D9',
+                    custom_blue: '#64D7FF',
+                    custom_lblue: '#95E4FF'
+                },
+                fontSize: {
+                    // 'lg': '1.2rem',
+                    'xl': '1.4rem'
+                },
+                borderRadius: {
+                    'xl': '20px'
+                },
+                spacing: {
+                    '18': '4.5rem',
+                    '88': '22rem',
+                    '104': '26rem',
+                    '112': '28rem',
+                    '120': '30rem',
+                    '128': '32rem',
+                    '136': '34rem',
+                    '144': '36rem',
+                    '152': '38rem',
+                    '160': '40rem',
+                    '168': '42rem',
+                    '176': '44rem',
+                    '184': '46rem',
+                    '192': '48rem',
+                    '200': '50rem',
+                    '208': '52rem',
+                    '216': '54rem',
+                    '224': '56rem',
+                    '232': '58rem',
+                    '240': '60rem',
+                    '248': '62rem',
+                    '256': '64rem',
+                    '264': '66rem',
+                    '272': '68rem',
+                    '280': '70rem',
+                    '288': '72rem',
+                    '296': '74rem',
+                    '304': '76rem',
+                    '312': '78rem',
+                    '320': '80rem',
+                    '328': '82rem',
+                    '336': '84rem',
+                    '344': '86rem',
+                    '352': '88rem',
+                    '360': '90rem',
+                    '368': '92rem',
+                    '376': '94rem',
+                    '384': '96rem',
+                    '392': '98rem',
+                    '400': '100rem',
+                    '408': '102rem',
+                    '416': '104rem',
+                    '424': '106rem',
+                }
+            }
+          }
+        }
+      </script>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@700;800&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="css/styles.css">
+      <link rel="stylesheet" href="css/responsiveStyles.css">
+</head>
+<body>
+    <main id="app" class="relative top-0 left-0 h-full">
+        <app-init></app-init>
+        <router-view></router-view>
+    </main>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+<script src="https://unpkg.com/vue-router@3.5.1/dist/vue-router.js"></script>
+
+<script src="js/comps/mainComp.js"></script>
+<script src="js/comps/headerComp.js"></script>
+<script src="js/comps/navComp.js"></script>
+<script src="js/comps/initComp.js"></script>
+
+<script src="js/comps/pops/portraitCon.js"></script>
+<script src="js/comps/pops/bookCon.js"></script>
+<script src="js/comps/pops/mapCon.js"></script>
+<script src="js/comps/pops/machineCon.js"></script>
+<script src="js/comps/pops/piggybankCon.js"></script>
+<script src="js/comps/pops/faqCon.js"></script>
+<script src="js/comps/pops/wheelCon.js"></script>
+
+<script src="js/routes.js"></script>
+<script src="js/app.js"></script>
+
+</html>

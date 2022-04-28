@@ -1,0 +1,124 @@
+/*------------------------------------------
+    Responsive Grid Media Queries
+    1200px and above    -   Extra Large Devices (Large laptops/desktops)
+    992px - 1199px      -   Large Devices (Laptops/Desktops)
+    768px - 991px       -   Medium Devices (Landscape tablets)
+    600px - 767px       -   Small Devices (Portrait tablets, Large phones)
+    600px and below     -   Extra Small Devices (Phones)
+--------------------------------------------*/
+
+
+
+/* Screen sizes (Portrait + Landscape)*/
+/* STARTS HERE */
+
+/* For witdh 1200px and above, use the main style.css */
+
+@media only screen and (max-width: 1119px) {
+} 
+
+@media only screen and (max-width: 991px) {
+    #MainHeader {
+        height:80px;
+    }
+    #MainLogo {
+        width:70%;
+    }
+    /* main#main {
+        display:none;
+    } */
+
+    .icon {
+        height: 45px;
+        width: 48px;
+    }
+      
+    .icon span {
+        height: 9px;
+        width: 45px;
+    }
+      
+    .icon span:first-child {
+        top: 22px;
+    }
+      
+    .icon span:nth-child(2) {
+        top: 36px;
+    }
+      
+    .icon span:last-child {
+        top: 50px;
+    }
+    
+    .icon:hover span:first-child {
+        top: 30px;
+    }
+    
+    .icon:hover span:last-child {
+        top: 48px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #MainHeader {
+        height:50px;
+    }
+    #MainLogo {
+        width:50%;
+    }
+    
+    .icon {
+        height: 35px;
+        width: 42px;
+    }
+      
+    .icon span {
+        height: 7px;
+        width: 40px;
+    }
+      
+    .icon span:first-child {
+        top: 10px;
+    }
+      
+    .icon span:nth-child(2) {
+        top: 21px;
+    }
+      
+    .icon span:last-child {
+        top: 32px;
+    }
+    
+    .icon:hover span:first-child {
+        top: 13px;
+    }
+    
+    .icon:hover span:last-child {
+        top: 29px;
+    }
+}
+
+@media only screen and (max-width: 599px) {}
+
+/* Screen sizes (Portrait + Landscape) */
+/* ENDS HERE */
+
+
+
+/* Portrait */
+/* STARTS HERE */
+
+@media screen and (orientation:portrait) {}
+
+/* Portrait */
+/* ENDS HERE */
+
+
+
+/* Landscape */
+/* STARTS HERE */
+
+@media screen and (orientation:landscape) {}
+
+/* Landscape */
+/* ENDS HERE */
