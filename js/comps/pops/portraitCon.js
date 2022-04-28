@@ -5,7 +5,7 @@ Vue.component('app-portraitCon', {
         <div @click.prevent.stop class="rounded-lg bg-white h-full w-full overflow-y-scroll">
             <header class="rounded-t-lg h-10 w-full bg-quinary" id="teamHeader"></header>
             <div class="p-4">
-                <button class="block text-4xl font-extrabold" @click.prevent="closeComp">&#x2715</button>
+                <button class="hover:animate-pulse block text-4xl font-extrabold" @click.prevent="closeComp">&#x2715</button>
             </div>
             <article class="px-8 w-full">
                 <h2 class="text-6xl font-extrabold text-center">Team + Vision for <span class="text-primary">Th</span><span class="text-quarternary">e M</span><span class="text-secondary">ee</span><span class="text-tertiary">pl</span><span class="text-quinary">es</span> and Meeple's Metro</h2>

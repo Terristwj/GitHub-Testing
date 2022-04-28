@@ -5,7 +5,7 @@ Vue.component('app-faqCon', {
         <div @click.prevent.stop class="relative rounded-lg bg-white h-full w-full overflow-y-scroll">
             <header class="rounded-t-lg h-10 w-full bg-primary" id="faqHeader"></header>
             <div class="p-4">
-                <button class="block text-4xl font-extrabold" @click.prevent="closeComp">&#x2715</button>
+                <button class="hover:animate-pulse block text-4xl font-extrabold" @click.prevent="closeComp">&#x2715</button>
             </div>  
             <article class="pt-12 px-40 w-full z-50">
                 <h1 class="text-6xl text-center text-primary font-extrabold leading-tight">Frequently Asked Questions (FAQs)</h1>

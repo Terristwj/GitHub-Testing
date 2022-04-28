@@ -3,7 +3,7 @@ Vue.component('app-nav', {
     `
     <div class="grid grid-cols-2">
         <div class="col-span-2 p-4">
-            <button class="block text-4xl font-black" @click.prevent="closeMenu">&#x2715</button>
+            <button class="hover:animate-pulse block text-4xl font-black" @click.prevent="closeMenu">&#x2715</button>
         </div>
         <div class="bg-text text-center p-4">
             <h2 class="font-extrabold text-2xl text-white">INFORMATION</h2>
