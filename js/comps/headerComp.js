@@ -2,12 +2,10 @@ Vue.component('app-header', {
     template:
     `
     <header id="MainHeader" class="h-24 bg-quarternary relative flex overflow-visible justify-between items-center p-4 z-40">
-        <button class="icon icon--transparent flex flex-col justify-between" @click.prevent="showMenu">
-
+        <button class="icon flex flex-col justify-between" @click.prevent="showMenu">
                 <span></span>
                 <span></span>
                 <span></span>
-
         </button>
         <div class="flex flex-col">
             <div class="rounded-xl pt-1 w-72">

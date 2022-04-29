@@ -1,7 +1,3 @@
-*{
-    transition-duration: 1s;
-}
-
 html, body {
     color: #2E2E2E !important;
     font-family: 'Dosis', sans-serif !important;
@@ -21,6 +17,7 @@ main#app, #init {
     margin-left:5%;
     height: 50px;
     width: 50px;
+    transition-duration: 1s;
 }
   
 .icon span {
@@ -32,6 +29,7 @@ main#app, #init {
     border-radius: 10px;
     height: 10px;
     width: 48px;
+    transition-duration: 1s;
 }
   
 .icon span:first-child {
