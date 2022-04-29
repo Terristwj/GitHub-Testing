@@ -3,9 +3,9 @@ Vue.component('app-bookCon', {
     `
     <section class="absolute top-0 left-0 px-112 pt-44 pb-60 w-full h-full bg-black/30 z-50" id="pageCon" @click.prevent="closeComp">
         <article class="w-full h-full" @click.prevent.stop>
-            <div class="p-4">
+            <div class="p-4" style="position:absolute;">
                 <button class="hover:animate-pulse block text-4xl font-extrabold" @click.prevent="closeComp">&#x2715</button>
-            </div>    
+            </div>
             <div v-if="this.currentPage == 0" class="grid grid-cols-2 gap-20 w-full h-full">
                 <div class="flex flex-col justify-center text-center">
                     <div>
@@ -233,7 +233,7 @@ Vue.component('app-bookCon', {
             this.currentPage+2 <= this.maxPage ? this.currentPage+=2 : this.currentPage = 10;
         },
         backPage() {
-            this.currentPage-2 >= 1 ? this.currentPage-=2 : this.currentPage = 1;
+            this.currentPage-2 >= 1 ? this.currentPage-=2 : this.currentPage = 0;
         },
         closeComp() {
             this.$emit('closeComp');
