@@ -4,7 +4,7 @@ Vue.component('app-machineCon', {
     <section @click.prevent="closeComp" class="absolute top-0 left-0 px-20 py-40 w-full h-full bg-black/30 z-50" id="portraitCon">
         <div @click.prevent.stop class="relative rounded-lg bg-white h-full w-full overflow-y-scroll">
             <header class="rounded-t-lg h-10 w-full bg-secondary" id="machineHeader"></header>\
-            <div class="p-4">
+            <div class="p-4" style="position:absolute;">
                 <button class="hover:animate-pulse block text-4xl font-extrabold" @click.prevent="closeComp">&#x2715</button>
             </div>
             <div class="absolute mx-auto mt-96 z-40 w-full flex justify-center">
